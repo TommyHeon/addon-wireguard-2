@@ -1,0 +1,8 @@
+{
+  "name": "WireGuard 2",
+  "slug": "wireguard2",
+  "url": "https://github.com/TommyHeon/addon-wireguard-2",
+  "type": "repository",
+  "categories": ["network", "vpn"],
+  "version": "1.0.0"
+}
