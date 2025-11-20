@@ -1,0 +1,10 @@
+#!/bin/sh
+# WireGuard finish script
+# This script is executed when the service stops
+
+# Stop WireGuard interface if running
+if [ -n "$WG_INTERFACE" ]; then
+    wg-quick down "$WG_INTERFACE"
+fi
+
+exit 0
